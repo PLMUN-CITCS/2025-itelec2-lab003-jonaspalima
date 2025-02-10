@@ -32,4 +32,4 @@ num1 = 5
 
 num2 = 3
 
-print(f"Sum: {num1 + num2:.2f}")  # The result (8.00) is formatted to 2 decimal places
+print(f"Sum: {num1 + num2:.2f}") 
