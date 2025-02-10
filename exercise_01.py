@@ -1,18 +1,18 @@
 print(f"Sum: {num1 + num2:.2f}")
 
-count = 10 
+count = 10                   # 'count' is assigned 10 (integer literal)
 
-Count = 15   
+Count = 15                   # 'Count' (different from 'count') is assigned 15
 
-decimal_value = 3.14         
+decimal_value = 3.14         # 'decimal_value' is assigned 3.14 (float literal)
 
-message = "Hello, Python!"   
+message = "Hello, Python!"   # String literal
 
-is_active = True             
+is_active = True             # Boolean literal
 
-result = None              
+result = None                # None literal represents absence of value
 
-total_count = 20            
+total_count = 20             # Another integer literal assignment
 
 print("Integer (count):", count)
 
@@ -28,8 +28,10 @@ print("Boolean:", is_active)
 
 print("None Value:", result)
 
+# Example of inline arithmetic with formatting using an f-string:
+
 num1 = 5
 
 num2 = 3
 
-print(f"Sum: {num1 + num2:.2f}") 
+print(f"Sum: {num1 + num2:.2f}")  # The result (8.00) is formatted to 2 decimal places
